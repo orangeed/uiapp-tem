@@ -1,2 +1,1 @@
-# uiapp-tem
-uniapp通用模板
+## 即时租赁

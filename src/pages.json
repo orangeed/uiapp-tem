@@ -1,0 +1,46 @@
+{
+    "pages": [
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        },
+        {
+            "path": "pages/index",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        }
+    ],
+    "subPackages": [
+        {
+            "root": "packages",
+            "pages": [
+                {
+                    "path": "indexPackage/supplier/index",
+                    "style": {
+                        "navigationBarTitleText": "供应商",
+                        "enablePullDownRefresh": false
+                    }
+                }
+            ]
+        }
+    ],
+    "preloadRule": {
+        "pages/index/index": {
+            "network": "wifi",
+            "packages": ["__APP__"]
+        },
+        "pages/my/index": {
+            "network": "wifi",
+            "packages": ["__APP__"]
+        }
+    },
+    "globalStyle": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "即时租赁",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    }
+}
